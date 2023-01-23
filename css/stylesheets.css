@@ -1,0 +1,112 @@
+html {
+  scroll-behavior: smooth;
+}
+.header {
+  text-align: center;
+  background-color: lightgray;
+  color: #c9a9a6;
+  padding: 10px;
+}
+.wrapper {
+  display: inline-flex;
+  width: 100%;
+  height: auto;
+  background-color: whitesmoke;
+}
+h3 {
+  color: #c9a9a6;
+  font-weight: 800;
+}
+
+p {
+  font-size: medium;
+  font-family: Raleway, sans-serif;
+}
+
+body {
+  color: #3c3c3c;
+}
+
+.myImage-img {
+  border-radius: 50%;
+  width: 45%;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 0%;
+  margin-top: 10px;
+  padding-left: 0%;
+}
+.sidebar {
+  width: 50%;
+  text-align: center;
+  padding-left: 0%;
+  display: inline-block;
+  font-weight: bolder;
+  background-color: #c9a9a6;
+}
+.skills-section {
+  padding-left: 10px;
+}
+
+.links {
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+}
+a.links:hover {
+  color: gray;
+}
+
+.list-sidebar {
+  padding: 10px;
+  display: list-item;
+  margin: 0;
+  line-height: 2;
+  list-style-type: none;
+}
+.content-info {
+  width: 100%;
+  color: #3c3c3c;
+  margin-left: 10px;
+}
+section#interests-section,
+#skills-section {
+  float: left;
+  width: 40%;
+}
+section#work-experience-section {
+  clear: both;
+}
+.inline-flex {
+  display: inline-flex;
+}
+.min-width {
+  min-width: 20%;
+}
+.full-width {
+  width: 100%;
+}
+.padding {
+  padding: 10px;
+}
+
+.list {
+  margin: 0;
+  list-style-type: none;
+  line-height: 1.5;
+}
+
+.list li:first-child {
+  font-weight: 800;
+}
+
+.footer {
+  color: #c9a9a6;
+  clear: both;
+  background-color: lightgray;
+  padding: 10px;
+  text-align: center;
+}
+img {
+  border-radius: 20%;
+}
